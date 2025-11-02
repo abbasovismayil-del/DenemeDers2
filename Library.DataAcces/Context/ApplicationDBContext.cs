@@ -16,7 +16,7 @@ namespace Library.DataAcces.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=(UGURSAHIN)\SQLEXPRESS;Initial Catalog=Library;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=UGURSAHIN\SQLEXPRESS;Initial Catalog=YMYP9-Library;Integrated Security=True;TrustServerCertificate=True;");
         }
     }
 }
