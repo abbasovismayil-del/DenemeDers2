@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Library.Entity.Abstractiıons
+{
+    public class BaseEntity
+    {
+        public Guid ID { get; set; } = Guid.NewGuid();
+        public bool IsActive { get; set; } = true;
+
+    }
+}
